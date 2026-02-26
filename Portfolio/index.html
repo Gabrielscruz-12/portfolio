@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contato" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+            <img src="imagens/Gabriel.jpg" class="minha-foto" />
+            <h1>Gabriel da Silva Cruz</h1>
+            <p>Desenvolvedor Front End</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Sou desenvolvedor Front-End com foco na criação de interfaces modernas, responsivas e funcionais. Tenho
+                conhecimento em HTML, CSS e JavaScript, construindo aplicações web organizadas, acessíveis e com boa
+                experiência para o usuário. Busco sempre aplicar boas práticas de desenvolvimento, código limpo e
+                atenção aos detalhes visuais.
+                <br>
+                <br>
+
+                Possuo familiaridade com React, explorando a criação de componentes reutilizáveis e interfaces
+                dinâmicas, além de compreender conceitos como estados, props e organização de projetos. Estou
+                constantemente aprimorando minhas habilidades e acompanhando as tendências do ecossistema front-end.
+                <br>
+                <br>
+
+                Acredito que uma boa interface vai além do design — ela conecta pessoas à tecnologia de forma intuitiva
+                e eficiente. Estou em busca de oportunidades para colaborar, evoluir profissionalmente e contribuir com
+                projetos inovadores.
+                <br>
+                <br>
+
+                Será um prazer desenvolver soluções criativas e impactantes junto à sua equipe. 🚀
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2>Meus projetos</h2>
+        <div class="projetos-caixa">
+
+            <!-- CSS Gerador com IA-->
+
+            <div class="projetos-card">
+                <img src="" alt="" class="projetos-imagem">
+                <h3 class="projeto-css">CSS Gerador com IA </h3>
+            </div>
+
+            <!-- Restaurante -->
+
+            <div class="projeto-restaurante">
+                <img src="/imagens/restaurante.png" alt="foto do restaurante" class="imagem-restaurante">
+                <a target="_blank" href="/projetos/restaurante/restaurante.html" class="projeto-css">Restaurante</a>
+            </div>
+        </div>
+    </section>
+
+            <!-- Contatos -->
+             
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="nome-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea class="text-form" placeholder="Digite sua Mensagem"></textarea>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
